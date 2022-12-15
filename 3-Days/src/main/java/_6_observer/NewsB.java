@@ -3,7 +3,7 @@ package _6_observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NewsA implements INews {
+public class NewsB implements INews {
 
     private List<IPerson> list = new ArrayList<>();
 
@@ -26,6 +26,6 @@ public class NewsA implements INews {
 
     @Override
     public String toString() {
-        return "NewsA{}";
+        return "NewsB{}";
     }
 }
